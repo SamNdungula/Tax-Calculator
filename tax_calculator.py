@@ -7,7 +7,7 @@
 import streamlit as st
 import pandas as pd
 
-# Tax brackets based on the table from the image (K25:M31)
+# Tax brackets 
 tax_brackets = pd.DataFrame({
     'Lower_Limit': [0, 100001, 150001, 350001, 550001, 850001, 1550001],
     'Fixed_Tax': [0, 0, 9000, 59000, 115000, 205000, 429000],
